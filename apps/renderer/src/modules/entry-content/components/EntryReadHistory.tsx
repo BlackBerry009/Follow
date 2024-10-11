@@ -25,7 +25,7 @@ import { usePresentUserProfileModal } from "../../profile/hooks"
 
 const getLimit = (width: number): number => {
   if (width > 900) return 15
-  if (width > 600) return 10
+  if (width > 800) return 10
   return 5
 }
 export const EntryReadHistory: Component<{ entryId: string }> = ({ entryId }) => {
